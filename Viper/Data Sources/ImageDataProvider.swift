@@ -42,9 +42,12 @@ private struct PixabayResponse: Codable {
   let hits: [Image]
 }
 
-//Get an API Key here: https://pixabay.com/accounts/register/
 class PixabayImageDataProvider: ImageDataProvider {
-  let apiKey = "<#Enter your API key here#>"
+
+  private lazy var apiKey: String = {
+    let path = Bundle.main.path(forResource: "Keys", ofType: "plist")!
+    return NSDictionary(contentsOfFile: path)!.value(forKey: "pixabayKey") as! String
+  }()
 
   private func searchURL(query: String) -> URL {
     var components = URLComponents(string: "https://pixabay.com/api")!

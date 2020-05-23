@@ -51,10 +51,12 @@ struct MapView: UIViewRepresentable {
         return annotation
         }())
     }
+
     if pins.count > 0 {
       view.addAnnotations(pins)
       view.showAnnotations(pins, animated: false)
     }
+
     if let routes = routes {
       routes.forEach { route in
         view.addOverlay(route.polyline, level: .aboveRoads)
