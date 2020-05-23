@@ -1,0 +1,34 @@
+{
+  "trips": [
+    {
+      "id" : "6B858FCD-3BF9-4EE0-A9DF-9B95011C3175",
+      "name" : "Pacific Drive",
+      "waypoints": [
+        {"name": "Monterey", "location": {"latitude": 36.603056, "longitude": -121.893611}, "id" : "FA5D3400-3304-4685-AA18-E1468447A70A"},
+        {"name": "Carmel", "location": {"latitude": 36.555278, "longitude": -121.923333}, "id" : "D4CF68D3-1A27-46B0-9864-A4CFD023B177"},
+        {"name": "Point Lobos State Natural Reserve", "location": {"latitude": 36.5171, "longitude": -121.9426}, "id" : "444D2269-202E-4A62-ADFB-FFC05F1C3969"},
+        {"name": "Big Sur", "location": {"latitude": 36.299216, "longitude": -121.873402}, "id" : "38B20772-61F7-4E02-8658-7F3A0063CFE8"},
+        {"name": "Garrapata State Park", "location": {"latitude": 36.466667, "longitude": -121.9}, "id" : "0FF36589-750B-4274-A6E0-C79F0729E670"},
+        {"name": "Old Coast Road", "location": {"latitude": 36.283333, "longitude": -121.833333}, "id" : "4CB6F477-7696-441E-92F6-42E516A71DBB"},
+        {"name": "Bixby Bridge", "location": {"latitude": 36.371389, "longitude": -121.901944}, "id" : "8BCF26B4-8E11-46CC-BE77-EB8F8D472954"},
+        {"name": "Pfeiffer Big Sur State Park", "location": {"latitude": 36.25, "longitude": -121.783333}, "id" : "68A73CE0-4D3F-4B02-93D3-EC2796027A8D"},
+        {"name": "Henry Miller Memorial Library", "location": {"latitude": 36.22084, "longitude": -121.75373}, "id" : "BA674165-ADD5-47F5-9CFA-2D52E963AC4F"},
+        {"name": "San Simeon", "location": {"latitude": 35.643889, "longitude": -121.189722}, "id" : "F3DD77DB-D50C-4E16-820A-85E415CB5B09"},
+        {"name": "Cambria", "location": {"latitude": 35.554167, "longitude": -121.0875}, "id" : "1405BE60-112D-4426-969C-616EE46D9BDA"},
+        {"name": "Morro Bay", "location": {"latitude": 35.365833, "longitude": -120.85}, "id" : "1E867667-851E-47D1-AA38-5DEE4020C498"}
+      ]
+    },
+    {
+      "id" : "1D81D088-D03E-4DB8-8695-58F9A42A2386",
+      "name" : "Thrill Chaser",
+      "waypoints": [
+        {"name": "Busch Gardens", "location": {"latitude": 28.0379, "longitude": -82.4216}, "id" : "25FED5F5-935F-4842-9B8C-94427A80190D"},
+        {"name": "Legoland", "location": {"latitude": 27.989172, "longitude": -81.689936}, "id" : "BF37F558-1B77-4167-A0E4-11830E50BDE1"},
+        {"name": "Fun Spot", "location": {"latitude": 28.330249, "longitude": -81.514685}, "id" : "5617EE7E-C95F-40DC-8EAC-A9CC6438571E"},
+        {"name": "Animal Kingdom (Disney World)", "location": {"latitude": 28.358, "longitude": -81.59}, "id" : "F8D125BE-3723-4402-ADC4-B8F579E6814D"},
+        {"name": "Discovery Cove (SeaWorld)", "location": {"latitude": 28.405417, "longitude": -81.461667}, "id" : "6D03A2E0-4D40-4127-971C-DA9611EBE784"}
+      ]
+    }
+  ]
+}
+
